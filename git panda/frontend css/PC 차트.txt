@@ -1,0 +1,312 @@
+[test2]
+[image]
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+
+</head>
+
+<div class="templatebody1">
+    <div class=maintext1>
+        <div class="maintext11">
+            <p id="wnsql">판다에듀가 선생님을 위해 준비한 자료는 <q id="rlqks">구성주의</q> 기반의 <q id="gud">활동형 </q> 자료 입니다.</p>
+        </div>
+    </div>
+
+    <div class="chartbox">
+        <div class="chartbox1">
+            <p class="text123"> 자료특징 분석</p>
+            <div class="basicchart">
+                <canvas id="myChart1" width="500" height="350"></canvas>
+            </div>
+            <div class="explane1">
+                <p style = "text-align:left;"> 활동형 자료의 특징으로는 가장 먼저 높은 연계성과 활동성을 들 수 있습니다.
+활동형 자료는 자료의 특성상 학생 주도 중심의 교수학습이 이루어 지며, 이는 활동형 자료가
+구성주의적인 교수학습 이론 체제를 대표하는 자료형이라고도 말 할 수 있을 것입니다.
+<br>이를 통하여 이 자료는 보통 타 과목, 타 주제와의 통합적인 연계학습으로도 용이하게 이용될 수 있으며
+선생님들은 이러한 특성을 고려하여 통합적인 교수학습을 진행하실 수 있습니다</p>
+            </div>
+        </div>
+
+
+
+
+
+
+        <script>
+            var ctx = document.getElementById('myChart1');
+            var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+            labels: ['활동성', '연계성', '복합성', '효율성', '교육성', '합목적성'],
+            datasets: [{
+            label: '# of Votes',
+            data: [12, 19, 3, 5, 2, 3],
+            backgroundColor: [
+            'rgba(254, 201, 37, 1)',
+            'rgba(153, 213, 91, 1)',
+            'rgba(91, 200, 197, 1)',
+            'rgba(122, 163, 61, 1)',
+            'rgba(90, 110, 121, 1)',
+            'rgba(210, 210, 210, 1)'
+            ],
+            borderColor: [
+            'rgba(254, 201, 37, 0)',
+            'rgba(153, 213, 91, 0)',
+            'rgba(91, 200, 197, 0)',
+            'rgba(122, 163, 61, 0)',
+            'rgba(90, 110, 121, 0)',
+            'rgba(210, 210, 210, 0)'
+            ],
+            borderWidth: 1
+            }]
+            },
+            options: {
+            responsive: true,
+            scales: {
+            yAxes: [{
+            ticks: {
+            beginAtZero: true
+            }
+            }]
+            },
+            }
+            });
+        </script>
+
+
+        <div class="chartbox2">
+            <p class="text123">자료응용 분석</p>
+            <div class="piechart">
+                <canvas id="myChart3" width="500" height="500"></canvas>
+            </div>
+            <div class="explane2">
+                <p style="text-align:left;">활동형 자료는 통합적이며 폭 넓게 응용될 수 있다는 특징이 있기 때문에, 수업의 어느 차시와 부분에서도 응용 되어질 수 있습니다. 다만 대부분의 교수 학습 활동에서 학생중심의 활동이 이루어 진다는 것은, 생각보다 많은 시간과 교사의 순회지도와 같은 노력이 요구되므로 대부분 수업의 전개과정에서 주요중심활동으로 응용되는 경우가 많을 것입니다.<br> 활동형 자료는 또한 학생들의 활동과 다양한 자료가 응용되는 경우가 많기 때문에 수업의 도입부에서 학생들의 동기유발에도 많이 응용될 수 있을 것 입니다. </p>
+            </div>
+        </div>
+
+        <script>
+
+            var ctx2 = document.getElementById('myChart3');
+            var myChart2 = new Chart(ctx2, {
+            type: 'pie',
+            data: {
+            labels: ['수업도입', '복습', '차시예고', '수업메인활동', '기타'],
+            datasets: [{
+            label: '# of Votes',
+            data: [12, 19, 3, 5, 2],
+            backgroundColor: [
+            'rgba(254, 201, 37, 1)',
+            'rgba(153, 213, 91, 1)',
+            'rgba(91, 200, 197, 1)',
+            'rgba(122, 163, 61, 1)',
+            'rgba(90, 110, 121, 1)',
+            ],
+            borderColor: [
+            'rgba(254, 201, 37, 0)',
+            'rgba(153, 213, 91, 0)',
+            'rgba(91, 200, 197, 0)',
+            'rgba(122, 163, 61, 0)',
+            'rgba(90, 110, 121, 0)',
+            ],
+            borderWidth: 1
+            }]
+            },
+            options: {
+
+            responsive: false,
+            scales: {
+            yAxes: [{
+            ticks: {
+            beginAtZero: true
+            }
+            }]
+            },
+            }
+            });
+        </script>
+    </div>
+
+    <div class="link1">
+
+        <div class="link11">
+            <div class="text123"><p>BEST 3</p></div>
+
+
+            <div class="link">
+                <div class="selecter">
+                    <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url1_i" class="img1" target="_blank">
+                        <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image1">
+                    </a>
+                </div>
+                <a href="" id="url1" target="_blank">무늬에서 규칙찾기</a>
+            </div>
+
+            <div class="link">
+                <div class="selecter">
+                    <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url2_i" class="img1" target="_blank">
+                        <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image2">
+                    </a>
+                </div>
+                <a href="" id="url2" target="_blank">무소수 세자리로 야구게임하기</a>
+            </div>
+
+            <div class="link">
+                <div class="selecter">
+                    <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url3_i" class="img1" target="_blank">
+                        <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image3">
+                    </a>
+                </div>
+                <a href="https://www.naver.com" id="url3" target="_blank" );>6단원 규칙찾기 탐구수학 학습지</a>
+            </div>
+        </div>
+
+
+        <div class="link12">
+            <div class="text123"><p> 이렇게 활용해 보세요</p></div>
+
+
+
+
+            <div id="slide">
+                <input type="radio" name="pos" id="pos1" checked>
+                <input type="radio" name="pos" id="pos2">
+                <ul>
+                    <li>
+                        <div class = "selecter_r_div">
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url4_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image4">
+                                </a>
+                                <a href="" id="url4" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url5_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image5">
+                                </a>
+                                <a href="" id="url5" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url6_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image6">
+                                </a>
+                                <a href="" id="url6" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url7_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image7">
+                                </a>
+                                <a href="" id="url7" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+                        </div>
+                        <div class = "selecter_r_div">
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url8_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image8">
+                                </a>
+                                <a href="" id="url8" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url9_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image9">
+                                </a>
+                                <a href="" id="url9" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url10_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image10">
+                                </a>
+                                <a href="" id="url10" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url11_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image11">
+                                </a>
+                                <a href="" id="url11" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="selecter_r_div">
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url12_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image12">
+                                </a>
+                                <a href="" id="url12" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url13_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image13">
+                                </a>
+                                <a href="" id="url13" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url14_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image14">
+                                </a>
+                                <a href="" id="url14" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url15_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image15">
+                                </a>
+                                <a href="" id="url15" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+                        </div>
+                        <div class="selecter_r_div">
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url16_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image16">
+                                </a>
+                                <a href="" id="url16" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url17i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image17">
+                                </a>
+                                <a href="" id="url17" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url18_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image18">
+                                </a>
+                                <a href="" id="url18" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+
+                            <span id="selecter_r">
+                                <a href="http://54.180.73.119.xip.io/%ec%9e%90%eb%a3%8c%ea%b3%b5%ec%9c%a0/?uid=78&mod=document&pageid=1" id="url19_i" class="img1" target="_blank">
+                                    <img src="http://54.180.73.119.xip.io/wp-content/uploads/2020/01/KakaoTalk_20200103_170357121-1.jpg" id="image19">
+                                </a>
+                                <a href="" id="url19" target="_blank">무소수 세자리로 야구게임하기</a>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+
+                <p class="pos">
+                    <label for="pos1" id="a"></label>
+                    <label for="pos2" id="b"></label>
+
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
